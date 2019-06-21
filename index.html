@@ -34,11 +34,10 @@
         margin: 0.5rem 0;
         box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
         transform: translate(0, 0);
-        cursor: move;
         transition: background-color 1s ease-out, box-shadow 0.5s ease-out,
           transform 0.5s ease-out;
       }
-      .sortable-chosen {
+      .content:hover {
         background-color: lightyellow;
         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
         transform: translate(-2px, -2px);
@@ -69,11 +68,6 @@
       .fas,
       .far {
         vertical-align: middle;
-      }
-
-      .sortable-ghost {
-        background: #eee;
-        border: 1px dashed #ccc;
       }
     </style>
 
