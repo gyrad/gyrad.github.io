@@ -24,14 +24,17 @@
       .container {
         margin: 0 auto;
         max-width: 500px;
+        display: flex;
+        flex-direction: column;
       }
       .content {
+        flex: 1;
         background-color: white;
         border: 1px solid #e8e8e8;
         border-radius: 3px;
         text-align: center;
         padding: 1rem;
-        margin: 0.5rem 0;
+        margin: 0.2rem 0;
         box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
         transform: translate(0, 0);
         transition: background-color 1s ease-out, box-shadow 0.5s ease-out,
@@ -68,6 +71,12 @@
       .fas,
       .far {
         vertical-align: middle;
+      }
+
+      .projects-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
       }
     </style>
 
@@ -113,6 +122,29 @@
         Wordpress developer. Experience with build tools such as Gulp and
         Webpack, and the Git version control system. Foundational grasp of
         ReactJS (Redux, Hooks, etc.)
+      </div>
+      <div class="content">
+        <strong>Recent projects:</strong>
+        <ul class="projects-list">
+          <li>
+            <a target="_blank" href="https://github.com/gyrad/tinygallery"
+              >TinyGallery</a
+            >
+            <i class="fab fa-js-square" style="color: #333;"></i>
+          </li>
+          <li>
+            <a target="_blank" href="https://github.com/gyrad/multi-todo"
+              >Multi Todo</a
+            >
+            <i class="fab fa-react" style="color: #6FBFDB;"></i>
+          </li>
+          <li>
+            <a target="_blank" href="https://github.com/gyrad/tibetan-keyboard"
+              >Tibetan Keyboard</a
+            >
+            <i class="fab fa-js-square" style="color: #333;"></i>
+          </li>
+        </ul>
       </div>
       <div class="content">
         <a
