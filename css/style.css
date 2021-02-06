@@ -1,0 +1,51 @@
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Ubuntu Mono", sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  background: white;
+  padding: 2.5rem;
+  position: relative;
+  border-top: 5px solid tomato;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.container:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.12);
+}
+
+a {
+  text-decoration: none;
+}
+
+.hello {
+  margin-top: 0.5rem;
+}
+
+.social-links {
+  margin-top: 2rem;
+}

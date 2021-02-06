@@ -4,325 +4,45 @@
     <!-- Hey you, thanks for checking my site out! :) -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Tenzing Gaychey བསྟན་འཛིན་དགེ་འབྱེད་</title>
-    <style type="text/css">
-      body {
-        font-family: 'Ubuntu Mono';
-        background-color: #f8f8f8;
-        line-height: 1.4;
-        background-color: #330055;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23330055' cx='50' cy='0' r='50'/%3E%3Cg fill='%233a015d' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23410165' cx='50' cy='100' r='50'/%3E%3Cg fill='%2348026e' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23500376' cx='50' cy='200' r='50'/%3E%3Cg fill='%2357047e' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%235f0587' cx='50' cy='300' r='50'/%3E%3Cg fill='%2367068f' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%236f0798' cx='50' cy='400' r='50'/%3E%3Cg fill='%237707a0' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%238008a9' cx='50' cy='500' r='50'/%3E%3Cg fill='%238909b1' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%239109ba' cx='50' cy='600' r='50'/%3E%3Cg fill='%239a09c3' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a309cb' cx='50' cy='700' r='50'/%3E%3Cg fill='%23ad09d4' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b608dc' cx='50' cy='800' r='50'/%3E%3Cg fill='%23c007e5' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23c905ee' cx='50' cy='900' r='50'/%3E%3Cg fill='%23d303f6' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23D0F' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
-background-attachment: fixed;
-background-size: contain;
-      }
-      .container {
-        margin: 0 auto;
-        width: 100%;
-        max-width: 520px;
-        display: flex;
-        flex-direction: column;
-      }
-      .content {
-        flex: 1;
-        background-color: rgba(255, 255, 255, 1);
-        border: 1px solid rgba(255, 255, 255, 1);
-        border-radius: 4px;
-        text-align: center;
-        padding: 1rem;
-        margin: 0.3rem 0;
-        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
-        transform: translate(0, 0);
-        transition: background-color 1s ease-out, box-shadow 0.5s ease-out,
-          transform 0.5s ease-out;
-      }
-      .content--heading {
-        display: flex;
-        align-items: center;
-      }
-      .content:hover {
-        background-color: white;
-        box-shadow: 0px 7px 30px rgba(0, 0, 0, 0.4);
-        transform: translate(0px, -2px);
-      }
-      .bold {
-        font-weight: bold;
-      }
-      .big {
-        font-size: 1.2rem;
-      }
-
-      h1 {
-        margin: 0;
-        flex: 1;
-        font-size: 1.5rem;
-      }
-      @media (min-width: 550px) {
-        h1{
-          font-size: 2.2rem;
-          border-left: 1px solid #E9E9E9;
-          margin-left: 20px;
-          padding-left: 20px;
-          text-align: left;
-        }
-      }
-
-      a {
-        text-decoration: none;
-      }
-
-      a:link {
-        color: dodgerblue;
-      }
-      a:visited {
-        color: steelblue;
-      }
-      a:hover {
-        color: deepskyblue;
-      }
-
-      .fab,
-      .fas,
-      .far {
-        vertical-align: middle;
-      }
-
-      .portrait {
-        width: 100px;
-        height: 100px;
-        object-fit: cover;
-        object-position: 45% 50%;
-        border-radius: 50%;
-        
-      }
-
-      .projects-list {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-      }
-      .projects-list li {
-        text-align: left;
-        border-bottom: 1px solid #eee;
-      }
-      .projects-list li:hover {
-        background-color: #fafafa;
-      }
-      .projects-list__icon {
-        color: #ccc;
-        transition: color 0.5s;
-      }
-      .projects-list__icon:hover {
-        color: #aaa;
-      }
-      .projects-list__links {
-        float: right;
-      }
-    </style>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-54843621-4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-54843621-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'UA-54843621-4');
-</script>
-
+      gtag("config", "UA-54843621-4");
+    </script>
   </head>
   <body>
     <div class="container">
-      <div class="content bold big content--heading">
-        <img src="images/gaychey.jpg" alt="Tenzing Gaychey" class="portrait" />
-        <h1>Tenzing Gaychey<br />བསྟན་འཛིན་དགེ་འབྱེད།</h1>
-      </div>
-      <!-- <div class="content">
-        <span class="bold"
-          ><i class="fas fa-graduation-cap" style="color: #666;"></i> Graphic
-          Design Advanced Diploma</span
-        ><br />from
-        <a
-          href="https://mediastudies.humber.ca/programs/graphic-design.html"
-          target="_blank"
-          >Humber College</a
-        >
-      </div> -->
-      <div class="content">
-        <!-- <i
-          class="fas fa-rocket big"
-          style="color: orangered; margin-bottom: .5rem;"
-        ></i
-        ><br /> -->I am a front-end web developer who enjoys solving problems.
-        Coming from a background in graphic design, I like to pay special
-        attention to detail and create a memorable experience for the user. I am
-        highly motivated and passionate about learning new web technologies.
-      </div>
-      <div class="content">
-          🛠<strong>Recent projects:</strong>
-        <ul class="projects-list">
+      <p class="hello">
+        Hi, I'm Tenzing Gaychey. I am a frontend web developer.
+      </p>
 
-            <li>
-                Students for a Free Tibet
-                <i
-                  title="Wordpress"
-                  class="fab fa-wordpress-simple projects-list__icon"
-                ></i>
-                <i
-                  title="JavaScript"
-                  class="fab fa-js-square projects-list__icon"
-                ></i>
-    
-                <span class="projects-list__links">
-                  <a href="https://studentsforafreetibet.org" target="_blank"
-                    >Live</a
-                  >
-                </span>
-              </li>
-              <li>
-                Say No to CI
-                <i
-                  title="Wordpress"
-                  class="fab fa-wordpress-simple projects-list__icon"
-                ></i>
-                <i
-                  title="JavaScript"
-                  class="fab fa-js-square projects-list__icon"
-                ></i>
-    
-                <span class="projects-list__links">
-                  <a href="https://saynotoci.org" target="_blank">Live</a>
-                </span>
-              </li>
-              <li>
-                Art for Tibet
-                <i title="React JS" class="fab fa-react projects-list__icon"></i>
-                <i
-                  title="JavaScript"
-                  class="fab fa-js-square projects-list__icon"
-                ></i>
-    
-                <span class="projects-list__links">
-                  <a href="https://github.com/gyrad/a4t-website" target="_blank"
-                    >Code</a
-                  >
-                  /
-                  <a href="https://artfortibet.org" target="_blank">Live</a>
-                </span>
-              </li>
-          <li>
-            TinyGallery
-            <i
-              title="JavaScript"
-              class="fab fa-js-square projects-list__icon"
-            ></i>
-
-            <span class="projects-list__links">
-              <a href="https://github.com/gyrad/tinygallery" target="_blank"
-                >Code</a
-              >
-              /
-              <a href="https://tenzinggaychey.com/tinygallery/" target="_blank"
-                >Live</a
-              >
-            </span>
-          </li>
-          <li>
-            Multi Todo
-            <i title="React JS" class="fab fa-react projects-list__icon"></i>
-            <i
-              title="JavaScript"
-              class="fab fa-js-square projects-list__icon"
-            ></i>
-
-            <span class="projects-list__links">
-              <a href="https://github.com/gyrad/multi-todo" target="_blank"
-                >Code</a
-              >
-              /
-              <a href="https://tenzinggaychey.com/multi-todo/" target="_blank"
-                >Live</a
-              >
-            </span>
-          </li>
-          <li>
-            Tibetan Keyboard
-            <i
-              title="JavaScript"
-              class="fab fa-js-square projects-list__icon"
-            ></i>
-
-            <span class="projects-list__links">
-              <a
-                href="https://github.com/gyrad/tibetan-keyboard"
-                target="_blank"
-                >Code</a
-              >
-              /
-              <a
-                href="https://tenzinggaychey.com/tibetan-keyboard/"
-                target="_blank"
-                >Live</a
-              >
-            </span>
-          </li>
-        </ul>
-      </div>
-      <div class="content">
-          👨‍🎤<strong>Technical Skills:</strong> <br />
-        HTML, 
-        CSS, 
-        JavaScript, 
-        <a href="https://sass-lang.com/" target="_blank">SCSS/SASS</a>/<a href="https://postcss.org/" target="_blank">PostCSS</a>, 
-        <a href="http://getbem.com/" target="_blank">BEM</a>, 
-        Adobe Photoshop/Illustrator,
-        <a href="https://www.figma.com/" target="_blank">Figma</a>, 
-        <a href="https://reactjs.org/" target="_blank">React</a>, 
-        <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby.js</a>, 
-        <a href="https://www.styled-components.com/" target="_blank">styled-components</a>, 
-        <a href="https://wordpress.org/" target="_blank">Wordpress (PHP)</a>, 
-        <a href="https://git-scm.com/" target="_blank">Git</a>, 
-        <a href="https://www.npmjs.com/" target="_blank">NPM</a>, 
-        <a href="https://nodejs.org/en/about/" target="_blank">Node.js</a>
-        & more.
-
-      </div>
-      <div class="content">
-          👨🏻‍💻<strong>Currently learning:</strong> <br />
-        <strong>M</strong>ongoDB / <strong>E</strong>xpress / <strong>R</strong>eact / <strong>N</strong>ode.js <span style="white-space: nowrap;">(<strong>MERN</strong> stack)</span></a
-        >
-      </div>
-      <div class="content">
+      <div class="social-links">
         <a href="https://codepen.io/tgaychey" target="_blank" title="Codepen"
-          ><i class="fab fa-codepen" style="color: #000000;"></i> @tgaychey</a
+          ><i class="fab fa-codepen" style="color: #000000"></i> @tgaychey</a
         >
         &nbsp;
         <a href="https://twitter.com/gyrad" target="_blank" title="Twitter"
-          ><i class="fab fa-twitter" style="color: #1da1f2;"></i> @gyrad</a
+          ><i class="fab fa-twitter" style="color: #1da1f2"></i> @gyrad</a
         >
         &nbsp;
-        <a href="https://github.com/gyrad" target="_blank" title="Github" style="white-space: nowrap;"
-          ><i class="fab fa-github" style="color: #000;"></i> @gyrad</a
+        <a href="https://github.com/gyrad" target="_blank" title="Github"
+          ><i class="fab fa-github" style="color: #000"></i> @gyrad</a
         >
       </div>
     </div>
 
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
-
-<!-- Expert level proficiency with Adobe Photoshop, Illustrator &
-        InDesign. Self-taught web developer. Knowledgeable in HTML, CSS (SASS,
-        PostCSS, BEM methodology), PHP, JavaScript (ES6+). Intermediate
-        Wordpress developer. Experience with build tools such as Gulp and
-        Webpack, and the Git version control system. Foundational grasp of
-        ReactJS (Redux, Hooks, etc.) -->
