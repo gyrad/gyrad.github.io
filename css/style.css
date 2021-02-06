@@ -28,6 +28,7 @@ body {
   text-align: center;
   background: white;
   padding: 2.5rem;
+  margin: 1.5rem;
   position: relative;
   border-top: 5px solid tomato;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
